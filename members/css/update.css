@@ -1,0 +1,47 @@
+body{
+	padding-top: 20px;
+	font-family: sans-serif;
+	 background-color: #e9e9e9;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+section{
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 30%;
+	padding: 2rem;
+	box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+}
+div{
+	width: 100%;
+}
+input{
+	width:100%;
+	height: 5vmin;
+	background-color: transparent;
+	transition: all .9s ease-in-out;
+	border:none;
+	border-bottom: 2px solid grey;
+	outline: none;
+}
+button{
+	width: 100%;
+	height: 5vmin;
+	background-color: rgba(288,0,70,.9);
+	color: white;
+	border: none;
+}
+@media(max-width: 900px){
+	 section{
+	 	width: 60%;	
+	 }
+	 button{
+	 	height: 7vmin;
+	 }
+	 
+}
